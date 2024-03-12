@@ -1,0 +1,39 @@
+.SearchBar {
+  width: 582px;
+  height: 44px;
+  color: #fff;
+  border: solid 1px #E3E3E3;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftEl {
+  margin-left: 10px;
+}
+
+form input {
+  width: 450px;
+  border: none;
+}
+
+form input:focus{
+  border: none;
+  outline: none;
+}
+
+form input:focus::placeholder{
+  color: transparent;
+}
+
+.SearchBar:hover{
+  border: none;
+  box-shadow: 0 2px 8px  #b0b0b0;
+}
+
+.rightEl {
+  margin-right: 10px;
+  display: flex;
+  gap: 10px;
+}
